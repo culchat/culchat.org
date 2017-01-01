@@ -50,9 +50,7 @@
               "color": "#41a85f"
             },
             ".link, .dropdown-item": {
-              "color": "#41a85f",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-family": "'Roboto', sans-serif"
+              "color": "#41a85f"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -64,13 +62,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#0e0e0e"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#202020!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#282828"
             },
             ".bg-color.transparent .link": {
               "color": "#41a85f",
@@ -99,13 +97,9 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#000000",
+            "bgColor": "#282828",
             "fontSize": 0.75,
-            "fontName": {
-              "name": "Roboto",
-              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "css": "'Roboto', sans-serif"
-            },
+            "fontName": {},
             "fontColor": "#41a85f",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
@@ -168,7 +162,7 @@
             "showButtons": false
           },
           "title": "<p>Welcome to Culchat<br><br></p>",
-          "text": "This site is under Development brb :) ......",
+          "text": "This site is under Development brb :) .",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
@@ -229,11 +223,6 @@
             "Theme"
           ],
           "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          },
           "_anchor": "form1-2",
           "_params": {
             "labelsColor": "#232323",
@@ -251,7 +240,7 @@
             "showSubTitle": true
           },
           "title": "CONTACT FORM",
-          "subtitle": "Hai there, before you send, if you would prefer to discuss in person or over the phone or skype , Please include the necessary details in your message and i will get back to you soon as possible .",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "form": {
             "action": "gsruthin@gmail.com",
             "alerts": {
@@ -279,7 +268,12 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
         },
         {
           "_name": "footer1",
